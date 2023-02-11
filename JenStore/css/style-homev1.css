@@ -118,11 +118,37 @@ ul.breadcrumb li a:hover {
   color: black;
   text-decoration: none; }
 
+  /* Editing CSS  */
+  .meet__owners--para{
+      margin: 5px auto;
+      padding: 10px;
+      width: 50%;
+      text-align: center;
+  }
+
+.perfect__for--header{
+  font-size: 40px; 
+}
+
+.perfect__para{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Sizing for screens */
 @media all and (min-width: 320px) {
+  .meet__owners--paramob{
+    font-size: 14px;
+    font-weight: bold;
+   position: relative;
+  }
   .col-md-1:nth-child(12n+1), .col-md-2:nth-child(6n+1), .col-md-3:nth-child(4n+1), .col-md-4:nth-child(3n+1), .col-md-6:nth-child(2n+1),
   .col-lg-1:nth-child(12n+1), .col-lg-2:nth-child(6n+1), .col-lg-3:nth-child(4n+1), .col-lg-4:nth-child(3n+1), .col-lg-6:nth-child(2n+1),
   .col-sm-1:nth-child(12n+1), .col-sm-2:nth-child(6n+1), .col-sm-3:nth-child(4n+1), .col-sm-4:nth-child(3n+1), .col-sm-6:nth-child(2n+1) {
-    clear: none; }
+    clear: none;
+  
+  }
 
   .col-xs-1:nth-child(12n+1), .col-xs-2:nth-child(6n+1), .col-xs-3:nth-child(4n+1), .col-xs-4:nth-child(3n+1), .col-xs-6:nth-child(2n+1) {
     clear: left; } }
@@ -953,11 +979,13 @@ nav {
   .collection h1, .wedding h1, .holiday h1 {
     font-family: Abril Fatface;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     color: black;
     padding-top: 80px;
     margin-bottom: 0;
-    text-align: center; }
+    text-align: center;
+    margin-top: 80px;
+  }
   .collection h2, .wedding h2, .holiday h2 {
     font-family: Poppins;
     font-weight: 500;

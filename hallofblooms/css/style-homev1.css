@@ -96,7 +96,7 @@ ul.breadcrumb li + li:before {
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
-  color: black;
+  color: #A29184;
   color: #888888;
   content: ">"; }
 
@@ -105,17 +105,17 @@ ul.breadcrumb li a {
   font-family: Poppins;
   font-weight: 500;
   font-size: 14px;
-  color: black;
+  color: #A29184;
   color: #888888;
   text-decoration: none; }
 
 ul.breadcrumb li:last-child a {
-  color: black;
+  color: #A29184;
   font-weight: bold; }
 
 /* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
-  color: black;
+  color: #A29184;
   text-decoration: none; }
 
   /* Editing CSS  */
@@ -124,6 +124,19 @@ ul.breadcrumb li a:hover {
       padding: 10px;
       width: 50%;
       text-align: center;
+  }
+
+  .header__flower--img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .green__flower--img{
+      height: auto;
+      width: 12% !important;
+      padding: 0px !important;
+      margin: 0px, 20px !important;
   }
 
 .logo2{
@@ -146,11 +159,20 @@ width: 50%;
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
-    margin-bottom: ;
+    
 }
 
 .faq_para{
   font-size: 20px !important
+}
+
+.header__logo{
+  height: auto;
+  width: 20% !important;
+  padding: 0 !important;
+  background-color: #faf0e6;
+    /* set the border to a 2-pixel thick solid red line */
+    border-radius: 50%;
 }
 
 /* Sizing for screens */
@@ -351,7 +373,9 @@ figure.bg-input::after {
   100% {
     left: 100%; } }
 .carousel-caption {
-  text-shadow: unset; }
+  text-shadow: unset;
+  font-family: Garamond !important;
+}
 
 body {
   background-image: url("img/BG-home1.jpg");
@@ -368,20 +392,20 @@ body {
   bottom: unset;
   top: 220px; }
   .carousel-inner .slide-1 .carousel-caption h3 {
-    font-family: poppins;
+    font-family: Garamond;
     font-weight: 400;
     font-size: 48px;
-    color: black; }
+    color: #a29184; }
   .carousel-inner .slide-1 .carousel-caption h1 {
-    font-family: Abril Fatface;
+    font-family: Garamond;
     font-weight: 400;
     font-size: 110px;
-    color: black; }
+    color: #a29184; }
   .carousel-inner .slide-1 .carousel-caption p {
-    font-family: poppins;
+    font-family: Garamond;
     font-weight: 400;
     font-size: 18px;
-    color: black;
+    color: #a29184;
     padding: 0 220px; }
   .carousel-inner .slide-1 .carousel-caption img {
     padding: 30px 0 80px 0;
@@ -491,35 +515,35 @@ nav {
   border-bottom: 1px solid rgba(136, 136, 136, 0.15); }
   nav #language-figure::before {
     content: "+";
-    font-family: poppins;
+    font-family: Garamond;
     font-weight: 400;
     font-size: 13px;
-    color: black;
+    color: #A29184;
     color: grey;
     position: absolute;
     top: 1px;
     right: 15px;
     transition: all .3s ease; }
   nav ul li {
-    font-family: poppins;
+    font-family: Garamond;
     font-weight: 400;
     font-size: 13px;
-    color: black;
+    color: #A29184;
     padding-right: 90px;
     color: grey; }
     nav ul li span {
-      font-family: poppins;
+      font-family: Garamond;
       font-weight: 500;
       font-size: 13px;
-      color: black;
+      color: #A29184;
       padding-right: 2px; }
   nav ul.navbar-right li {
     padding-right: 26px; }
     nav ul.navbar-right li a {
-      font-family: poppins;
+      font-family: Garamond;
       font-weight: 400;
       font-size: 13px;
-      color: black;
+      color: #A29184;
       color: grey;
       padding: 0; }
       nav ul.navbar-right li a:hover {
@@ -590,10 +614,10 @@ nav {
           .menu-main li.menu-home .dropdown-menu.menu-home-lv2 .li-home a {
             display: inline-block;
             transition: all .3s ease;
-            font-family: Poppins;
+            font-family: Garamond;
             font-weight: 400;
             font-size: 14px;
-            color: black;
+            color: #A29184;
             color: grey;
             padding-left: 0; }
             .menu-main li.menu-home .dropdown-menu.menu-home-lv2 .li-home a:hover {
@@ -643,10 +667,10 @@ nav {
       .menu-main li.shop-menu .dropdown-menu ul {
         padding: 10px 0; }
         .menu-main li.shop-menu .dropdown-menu ul a {
-          font-family: Poppins;
+          font-family: Garamond;
           font-weight: 600;
           font-size: 14px;
-          color: black; }
+          color: #A29184; }
           .menu-main li.shop-menu .dropdown-menu ul a:hover {
             text-decoration: none;
             opacity: .5; }
@@ -664,14 +688,14 @@ nav {
               padding-top: 30px; }
             .menu-main li.shop-menu .dropdown-menu ul li .menu-home-lv2 ul .li-home a {
               transition: all .3s ease;
-              font-family: Poppins;
+              font-family: Garamond;
               font-weight: 400;
               font-size: 14px;
-              color: black;
+              color: #A29184;
               color: grey; }
               .menu-main li.shop-menu .dropdown-menu ul li .menu-home-lv2 ul .li-home a:hover {
                 text-decoration: none;
-                color: black;
+                color: #A29184;
                 font-weight: 600;
                 opacity: 1; }
             .menu-main li.shop-menu .dropdown-menu ul li .menu-home-lv2 ul .li-home:hover i {
@@ -681,7 +705,7 @@ nav {
             .menu-main li.shop-menu .dropdown-menu ul li .menu-home-lv2 ul .li-home:hover a {
               display: inline-block;
               text-decoration: none;
-              color: black;
+              color: #A29184;
               font-weight: 600;
               transform: translateX(18px); }
       .menu-main li.shop-menu .dropdown-menu .li-banner {
@@ -696,21 +720,25 @@ nav {
       position: absolute;
       width: 30px;
       height: 2px;
-      background: black;
+      background: #A29184;
       bottom: 8px;
       left: 10px;
       visibility: hidden;
-      opacity: 0; }
+      opacity: 0;
+      text-decoration-color: red !important;
+    }
     .menu-main li.wedding-menu:hover #wedding-1 {
       visibility: unset;
       opacity: 1;
       transform: translateX(5px);
-      transition: all .35s ease; }
+      transition: all .35s ease; 
+      color: #A29184 !important;
+  }
     .menu-main li.blog-menu #blog-1 {
       position: absolute;
       width: 30px;
       height: 2px;
-      background: black;
+      background: #A29184;
       bottom: 8px;
       left: 10px;
       visibility: hidden;
@@ -745,15 +773,15 @@ nav {
           .menu-main li.blog-menu .dropdown-menu.menu-home-lv2 .li-home a {
             display: inline-block;
             transition: all .3s ease;
-            font-family: Poppins;
+            font-family: Garamond;
             font-weight: 400;
             font-size: 14px;
-            color: black;
+            color: #A29184;
             color: grey;
             padding-left: 5px; }
             .menu-main li.blog-menu .dropdown-menu.menu-home-lv2 .li-home a:hover {
               text-decoration: none;
-              color: black;
+              color:#A29184 ;
               font-weight: 600; }
           .menu-main li.blog-menu .dropdown-menu.menu-home-lv2 .li-home:hover i {
             visibility: visible;
@@ -761,7 +789,7 @@ nav {
             transform: translateX(18px); }
           .menu-main li.blog-menu .dropdown-menu.menu-home-lv2 .li-home:hover a {
             text-decoration: none;
-            color: black;
+            color: #A29184;
             font-weight: 600;
             transform: translateX(18px); }
       .menu-main li.blog-menu .dropdown-menu .li-banner {
@@ -787,10 +815,10 @@ nav {
       transform: translateX(5px);
       transition: all .35s ease; }
     .menu-main li a {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 300;
       font-size: 18px;
-      color: black; }
+      color: #A29184 }
       .menu-main li a:hover {
         background-color: unset; }
       .menu-main li a#home-menu {
@@ -884,7 +912,7 @@ nav {
       background-position: 0%;
       -webkit-transition: background .3s ease-in-out;
       transition: background .3s ease-in-out;
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 400;
       font-size: 14px;
       color: black;
@@ -908,13 +936,13 @@ nav {
     padding-left: 15px;
     float: left; }
     .icon-menu .cart-menu .info-cart h1 {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 600;
       font-size: 14px;
       color: black;
       margin-top: 0; }
     .icon-menu .cart-menu .info-cart span {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 500;
       font-size: 14px;
       color: black; }
@@ -924,7 +952,7 @@ nav {
         font-weight: 600; }
   .icon-menu .cart-menu .total {
     padding: 0 15px 30px 0;
-    font-family: Poppins;
+    font-family: Garamond;
     font-weight: 600;
     font-size: 16px;
     color: black; }
@@ -956,7 +984,7 @@ nav {
     text-align: center;
     width: 100%; }
   .who p {
-    font-family: Poppins;
+    font-family: Garamond;
     font-weight: 400;
     font-size: 16px;
     color: black;
@@ -977,14 +1005,14 @@ nav {
       width: 115px;
       border-radius: 50%; }
     .who .media h3 {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 500;
       font-size: 18px;
       color: black;
       padding: 20px 20px 0 20px;
       margin-bottom: 0; }
     .who .media span {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 400;
       font-size: 14px;
       color: black;
@@ -1005,7 +1033,7 @@ margin-top: 300px}
     margin-top: 80px;
   }
   .collection h2, .wedding h2, .holiday h2 {
-    font-family: Poppins;
+    font-family: Garamond;
     font-weight: 500;
     font-size: 16px;
     color: black;
@@ -1019,7 +1047,7 @@ margin-top: 300px}
     padding: 0;
     margin-bottom: 10px; }
   .collection .banner-collec h3, .wedding .banner-collec h3, .holiday .banner-collec h3 {
-    font-family: Poppins;
+    font-family: Garamond;
     font-weight: 400;
     font-size: 36px;
     color: black;
@@ -1064,7 +1092,7 @@ margin-top: 300px}
     .collection .product-collection .product-title-collec h5, .wedding .product-collection .product-title-collec h5, .holiday .product-collection .product-title-collec h5 {
       margin-top: 20px; }
       .collection .product-collection .product-title-collec h5 a, .wedding .product-collection .product-title-collec h5 a, .holiday .product-collection .product-title-collec h5 a {
-        font-family: Poppins;
+        font-family: Garamond;
         font-weight: 400;
         font-size: 16px;
         color: black; }
@@ -1076,7 +1104,7 @@ margin-top: 300px}
       .collection .product-collection .product-title-collec .star i, .wedding .product-collection .product-title-collec .star i, .holiday .product-collection .product-title-collec .star i {
         padding-right: 2px; }
     .collection .product-collection .product-title-collec .prince, .wedding .product-collection .product-title-collec .prince, .holiday .product-collection .product-title-collec .prince {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 600;
       font-size: 18px;
       color: black;
@@ -1118,7 +1146,7 @@ margin-top: 300px}
         .collection .product-collection .product-image-collec .product-icon-collec a:hover, .wedding .product-collection .product-image-collec .product-icon-collec a:hover, .holiday .product-collection .product-image-collec .product-icon-collec a:hover {
           color: black; }
     .collection .product-collection .product-image-collec .hot::before, .wedding .product-collection .product-image-collec .hot::before, .holiday .product-collection .product-image-collec .hot::before {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 500;
       font-size: 14px;
       color: black;
@@ -1131,7 +1159,7 @@ margin-top: 300px}
       padding: 2px 0 0 9px;
       right: 0; }
     .collection .product-collection .product-image-collec .sale::before, .wedding .product-collection .product-image-collec .sale::before, .holiday .product-collection .product-image-collec .sale::before {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 500;
       font-size: 14px;
       color: black;
@@ -1161,19 +1189,19 @@ margin-top: 300px}
       .wedding .wedding-content .product-wedding .product-title-wedding h5 {
         margin-top: 20px; }
         .wedding .wedding-content .product-wedding .product-title-wedding h5 a {
-          font-family: Poppins;
+          font-family: Garamond;
           font-weight: 400;
           font-size: 16px;
-          color: black; }
+          color: #A29184; }
           .wedding .wedding-content .product-wedding .product-title-wedding h5 a:hover {
             text-decoration: none;
             color: pink; }
       .wedding .wedding-content .product-wedding .product-title-wedding .star {
-        color: #e18787; }
+        color: #A29184; }
         .wedding .wedding-content .product-wedding .product-title-wedding .star i {
           padding-right: 2px; }
       .wedding .wedding-content .product-wedding .product-title-wedding .prince {
-        font-family: Poppins;
+        font-family: Garamond;
         font-weight: 600;
         font-size: 18px;
         color: black;
@@ -1215,7 +1243,7 @@ margin-top: 300px}
           .wedding .wedding-content .product-wedding .product-image-wedding .product-icon-wedding a:hover {
             color: black; }
       .wedding .wedding-content .product-wedding .product-image-wedding .hot::before {
-        font-family: Poppins;
+        font-family: Garamond;
         font-weight: 500;
         font-size: 14px;
         color: black;
@@ -1228,7 +1256,7 @@ margin-top: 300px}
         padding: 2px 0 0 9px;
         right: 0; }
       .wedding .wedding-content .product-wedding .product-image-wedding .sale::before {
-        font-family: Poppins;
+        font-family: Garamond;
         font-weight: 500;
         font-size: 14px;
         color: black;
@@ -1250,7 +1278,7 @@ margin-top: 300px}
     .holiday .product-holiday .product-title-holiday h5 {
       margin-top: 20px; }
       .holiday .product-holiday .product-title-holiday h5 a {
-        font-family: Poppins;
+        font-family: Garamond;
         font-weight: 400;
         font-size: 16px;
         color: black; }
@@ -1262,7 +1290,7 @@ margin-top: 300px}
       .holiday .product-holiday .product-title-holiday .star i {
         padding-right: 2px; }
     .holiday .product-holiday .product-title-holiday .prince {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 600;
       font-size: 18px;
       color: black;
@@ -1304,7 +1332,7 @@ margin-top: 300px}
         .holiday .product-holiday .product-image-holiday .product-icon-holiday a:hover {
           color: black; }
     .holiday .product-holiday .product-image-holiday .hot::before {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 500;
       font-size: 14px;
       color: black;
@@ -1317,7 +1345,7 @@ margin-top: 300px}
       padding: 2px 0 0 9px;
       right: 0; }
     .holiday .product-holiday .product-image-holiday .sale::before {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 500;
       font-size: 14px;
       color: black;
@@ -1340,12 +1368,12 @@ margin-top: 300px}
       left: 40px;
       text-align: center; }
       .holiday .banner-holiday .title-holiday h1 {
-        font-family: Poppins;
+        font-family: Garamond;
         font-weight: 400;
         font-size: 36px;
         color: black; }
       .holiday .banner-holiday .title-holiday p {
-        font-family: Poppins;
+        font-family: Garamond;
         font-weight: 400;
         font-size: 16px;
         color: black;
@@ -1397,7 +1425,7 @@ margin-top: 300px}
       font-size: 60px;
       color: black; }
     .count .title-count p {
-      font-family: Poppins;
+      font-family: Garamond;
       font-weight: 400;
       font-size: 14px;
       color: black; }
@@ -1432,7 +1460,7 @@ margin-top: 300px}
       .count .title-count #countdown #tiles span {
         width: 90px;
         max-width: 90px;
-        font-family: Poppins;
+        font-family: Garamond;
         font-size: 36px;
         font-weight: 600;
         text-align: center;
@@ -1445,7 +1473,7 @@ margin-top: 300px}
         padding: 0; }
         .count .title-count #countdown .labels li {
           width: 100px;
-          font-family: Poppins;
+          font-family: Garamond;
           font-size: 14px;
           font-weight: 400;
           color: grey;
@@ -1497,7 +1525,7 @@ margin-top: 300px}
   text-align: center;
   padding-top: 30px; }
 .blog p {
-  font-family: Poppins;
+  font-family: Garamond;
   font-weight: 400;
   font-size: 16px;
   color: black;
@@ -1520,7 +1548,7 @@ margin-top: 300px}
     text-decoration: none;
     color: pink; }
 .blog .product-blog p {
-  font-family: Poppins;
+  font-family: Garamond;
   font-weight: 400;
   font-size: 14px;
   color: black;
@@ -1535,7 +1563,7 @@ margin-top: 300px}
     color: grey;
     padding-right: 10px; }
   .blog .product-blog .time-blog .time span {
-    font-family: Poppins;
+    font-family: Garamond;
     font-weight: 400;
     font-size: 14px;
     color: black;
@@ -1573,7 +1601,7 @@ footer {
           transition: all .3s ease; }
         footer .info-footer ul li a {
           transition: all .3s ease;
-          font-family: Poppins;
+          font-family: Garamond;
           font-weight: 400;
           font-size: 14px;
           color: black;

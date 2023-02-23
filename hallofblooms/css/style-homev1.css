@@ -158,11 +158,19 @@ width: 50%;
 .perfect__para{
     text-align: center;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 28px;
+    color: #5D5A56;
+    font-family: garamond;
+    text-decoration: dashed;
 }
 
 .faq_para{
   font-size: 20px !important
+}
+
+
+.blog{
+  margin-top: 70px;
 }
 
 .header__logo{
@@ -182,6 +190,22 @@ width: 50%;
 .perfect__for--para{
   font-family: garamond !important;
   color: #5D5A56 !important;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 0 !important;
+}
+
+#showcase-3{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin-top: 40px !important;
+}
+
+#showcase-2{
+  margin-top: 30px;
 }
 
 .perfect__for--container{
@@ -194,23 +218,50 @@ width: 50%;
   padding: 0 20px;
 }
 .perfect__img--container {
- flex: 1 !important;
+    position: relative;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 50%;
 }
+
 .pinkbackground{
-  width: 30%;
+  width: 80%;
   max-width: 100%;
 }
 
-.perfect__para--container {
-  flex: 1 !important;
-  text-align: center !important;
+
+.perfect__img--container .laughingimg:first-child{
+  z-index: 1;
+  position: absolute;
+  bottom: 98px;
+  left: 30px;
 }
 
-.perfect__img--container {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  margin-left: 20px;
+.perfect__img--container .pinkbackground:last-child {
+  z-index: 0;
+}
+
+.laughingimg{
+  width: 50%;
+}
+
+.perfect__para--container {
+  margin-left: 0;
+  text-align: center !important;
+  width: 50%;
+}
+
+.works__text{
+  font-family: garamond;
+  color: #F3BABF;
+  font-size: 30px;
+}
+
+.works__para{
+  color: #A29184;
+  font-family: garamond;
+  font-size: 20px;
 }
 
 

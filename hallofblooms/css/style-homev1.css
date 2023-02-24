@@ -217,6 +217,7 @@ width: 50%;
   margin: 0 auto !important;
   padding: 0 20px;
 }
+
 .perfect__img--container {
     position: relative;
     display: flex !important;
@@ -294,7 +295,7 @@ width: 50%;
   font-family: garamond !important;
   font-size: 20px !important;
   text-align: center !important;
-  padding-top: 30px !important;
+  padding-top: 10px !important;
   margin: 0 auto !important;
   font-weight: normal !important;
 }
@@ -312,6 +313,48 @@ width: 50%;
   position: absolute !important;
 }
 
+.blooms__background{
+  position: absolute !important;
+}
+
+.blooms__pink--flower1{
+  height: auto !important;
+  width: 40% !important;
+  transform: translateX(40%);
+  top: -10%;
+  left: -10%;
+}
+
+.blooms__pink--flower1-2{
+  height: auto !important;
+  width: 40% !important;
+  right: -10% !important;
+  width: 30% !important;
+  top: 30%;
+}
+
+.blooms__green--flower1{
+  transform: translateX(40%);
+  height: auto !important;
+  width: 30% !important;
+  right: 25% !important;
+  top: -10% !important;
+}
+
+.blooms__yellow--flower1{
+  bottom: -10% !important;
+  right: 30px !important;
+  height: auto !important;
+  width: 30% !important;
+  transform: translateX(40%)
+}
+
+.blooms__brown--leaf1{
+  transform: translateX(40%);
+  height: auto !important;
+  width: 40% !important;
+  right: 5% !important;
+}
 
 /* Sizing for screens */
 @media all and (min-width: 320px) {

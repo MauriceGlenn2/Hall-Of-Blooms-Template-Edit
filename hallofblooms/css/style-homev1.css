@@ -162,6 +162,7 @@ width: 50%;
     color: #5D5A56;
     font-family: garamond;
     text-decoration: dashed;
+    font-weight: 500 !important;
 }
 
 .faq_para{
@@ -194,6 +195,7 @@ width: 50%;
   font-size: 20px;
   margin-bottom: 20px;
   padding: 0 !important;
+ 
 }
 
 #showcase-3{
@@ -262,7 +264,9 @@ width: 50%;
 .works__para{
   color: #A29184;
   font-family: garamond;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 600 !important;
+  text-align: left;
 }
 
 
@@ -295,16 +299,19 @@ width: 50%;
   font-family: garamond !important;
   font-size: 20px !important;
   text-align: center !important;
-  padding-top: 10px !important;
+  padding-top: 20px !important;
   margin: 0 auto !important;
   font-weight: normal !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
 }
 
 .favorite__bloom--para{
   text-align: center !important;
   font-family: garamond !important;
-  font-size: 20px !important;
+  font-size: 22px !important;
   color: #5D5A56 !important;
+  font-weight: 600 !important;
 }
 
 .favorite__bloom--container{
@@ -354,6 +361,37 @@ width: 50%;
   height: auto !important;
   width: 40% !important;
   right: 5% !important;
+}
+
+.flowers__style--container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.yellowflower__style--para{
+  
+  font-style: italic;
+  font-family: Playfair Display !important;
+  font-size: 48px !important;
+  color: #758476;
+}
+
+
+.yellowflower__style{
+  height: auto;
+  width: 10%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.floral__inquiry--link{
+  text-decoration: none !important;
+  font-family: garamond !important;
+  font-size: 26px !important;
+  color: #a29184 !important;
+  text-align: center;
 }
 
 /* Sizing for screens */
@@ -997,7 +1035,7 @@ nav {
       transition: all .35s ease; }
     .menu-main li a {
       font-family: Garamond;
-      font-weight: 300;
+      font-weight: 600;
       font-size: 18px;
       color: #A29184 }
       .menu-main li a:hover {
@@ -1711,7 +1749,7 @@ margin-top: 300px}
   font-size: 16px;
   color: black;
   text-align: center;
-  padding-bottom: 100px; }
+  padding-bottom: 10px; }
 .blog .product-blog img {
   transition: all .35s ease-in-out; }
 .blog .product-blog:hover img {

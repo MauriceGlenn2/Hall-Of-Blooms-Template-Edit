@@ -130,6 +130,7 @@ ul.breadcrumb li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
   }
 
   .green__flower--img{
@@ -169,24 +170,42 @@ width: 50%;
   font-size: 20px !important
 }
 
-
 .blog{
   margin-top: 70px;
+  text-decoration: none !important;
 }
 
-.header__logo{
-  height: auto;
-  width: 20% !important;
-  padding: 0 !important;
-  background-color: #F3BABF;
-    /* set the border to a 2-pixel thick solid red line */
-    border-radius: 50%;
+.header__logo--container {
+  width: 100%;
+
+  height: 0;
+  padding-bottom: 50%;
+  /* This will set the height of the container to be the same as its width */
+}
+
+.header__logo {
+  height: auto !important;
+  width: 40% !important;
+  max-width: 100% !important;
+  object-fit: cover !important;
+    background-color: rgb(243, 186, 191, 0.10);
+      border-radius: 50%;
+      padding: 0 0;
 }
 
 .color__text{
   color: #F3BABF;
   font-family: garamond;
+  text-decoration: none !important;
+  background-color: inherit !important;
 }
+
+.color__text:hover{
+color: inherit !important;
+text-decoration: none !important;
+background-color: inherit !important;
+}
+
 
 .perfect__for--para{
   font-family: garamond !important;
@@ -217,7 +236,7 @@ width: 50%;
   width: 100% !important;
   max-width: 1200px !important;
   margin: 0 auto !important;
-  padding: 0 20px;
+  padding: 50px 20px;
 }
 
 .perfect__img--container {
@@ -269,6 +288,10 @@ width: 50%;
   text-align: left;
 }
 
+.indented{
+  text-indent: 40px !important;
+  display: inline-block;
+}
 
 .behind__blooms--container{
   position: relative;
@@ -299,7 +322,7 @@ width: 50%;
   font-family: garamond !important;
   font-size: 20px !important;
   text-align: center !important;
-  padding-top: 20px !important;
+  padding-top: 50px !important;
   margin: 0 auto !important;
   font-weight: normal !important;
   font-weight: 600 !important;
@@ -326,10 +349,10 @@ width: 50%;
 
 .blooms__pink--flower1{
   height: auto !important;
-  width: 40% !important;
+  width: 45% !important;
   transform: translateX(40%);
-  top: -10%;
-  left: -10%;
+  top: -8%;
+  left: -25%;
 }
 
 .blooms__pink--flower1-2{
@@ -349,10 +372,10 @@ width: 50%;
 }
 
 .blooms__yellow--flower1{
-  bottom: -10% !important;
+  bottom: -15% !important;
   right: 30px !important;
   height: auto !important;
-  width: 30% !important;
+  width: 40% !important;
   transform: translateX(40%)
 }
 
@@ -392,6 +415,11 @@ width: 50%;
   font-size: 26px !important;
   color: #a29184 !important;
   text-align: center;
+}
+
+.ig__link--title{
+  text-decoration: none !important;
+  color: #F3BABF !important;
 }
 
 /* Sizing for screens */
@@ -597,7 +625,7 @@ figure.bg-input::after {
 }
 
 body {
-  background-image: url("img/BG-home1.jpg");
+  /* background-image: url("img/BG-home1.jpg"); */
   background-position: -515px 0;
   height: auto;
   background-repeat: no-repeat; }
@@ -795,15 +823,23 @@ nav {
     width: 66px; }
   nav ul.navbar-right .eng-language:hover #language-figure::before {
     content: "-"; }
-
+.row__navbar{
+  background-color: #CADBCA;
+  max-width: 100% !important;
+}
+.nav__bar--container{
+  max-width: 100% !important
+}
 .menu-main {
   position: relative;
-  padding-top: 40px; }
+  padding-top: 40px;
+  background-color: #CADBCA;
+}
   .menu-main::before {
     position: absolute;
     width: 30px;
     height: 2px;
-    background-color: black;
+    background-color: #A29184;
     bottom: 8px;
     left: 15px; }
   .menu-main li {
@@ -1795,14 +1831,14 @@ margin-top: 300px}
       padding-right: 5px; }
 
 footer {
-  background-image: url("img/BG-footer.png");
-  background-position: -288px -335px;
-  height: 855px;
+ 
+  
+  height: auto;
   background-repeat: no-repeat; }
   footer .info-footer {
     padding-top: 280px; }
     footer .info-footer h3 {
-      font-family: Abril Fatface;
+      font-family: garamond
       font-weight: 400;
       font-size: 18px;
       color: black;
@@ -1944,7 +1980,9 @@ footer {
           color: black;
           text-decoration: none; }
   footer .footer-logo {
-    border-top: 1px solid rgba(136, 136, 136, 0.15); }
+    border-top: 1px solid rgba(136, 136, 136, 0.15);
+    background-color: #F3BABF;
+  }
     footer .footer-logo .footer-row {
       margin: 0; }
       footer .footer-logo .footer-row .col-lg-4 {

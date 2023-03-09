@@ -131,6 +131,7 @@ ul.breadcrumb li a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    max-width: 100%;
   }
 
   .green__flower--img{
@@ -177,10 +178,9 @@ width: 50%;
 
 .header__logo--container {
   width: 100%;
-
   height: 0;
   padding-bottom: 50%;
-  /* This will set the height of the container to be the same as its width */
+    /* This will set the height of the container to be the same as its width */
 }
 
 .header__logo {
@@ -188,9 +188,9 @@ width: 50%;
   width: 40% !important;
   max-width: 100% !important;
   object-fit: cover !important;
-    background-color: rgb(243, 186, 191, 0.10);
-      border-radius: 50%;
-      padding: 0 0;
+  background-color: rgb(243, 186, 191, 0.10);
+  border-radius: 50%;
+  padding: 0 0;
 }
 
 .color__text{
@@ -421,6 +421,81 @@ background-color: inherit !important;
   text-decoration: none !important;
   color: #F3BABF !important;
 }
+
+/* 4 square pics */
+.square__pic--container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center !important;
+  margin: 0 auto;
+}
+
+.square__pic--row{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.square__pic--col {
+  position: relative !important;
+  width: calc(90% - 10px);
+  height: auto;
+  margin-right: 10px;
+  transition: transform 0.5s ease;
+}
+
+.square__pic--col:nth-child(2n) {
+  margin-right: 0;
+}
+
+.square__img {
+  width: 100%;
+  height: 100%;
+  /* max-width: 100%; */
+  object-fit: cover;
+  margin: 0;
+  display: block;
+}
+
+.square__pic--col:hover {
+  /* transform: scale(1.0) translateY(-5px); */
+  /* hover up/down with X */
+
+  transform: scale(1.01);
+
+}
+
+.pic__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.square__pic--col:hover .pic__overlay {
+  opacity: 1;
+}
+
+.pic__text {
+  color: white;
+  font-family: garamond;
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 
 /* Sizing for screens */
 @media all and (min-width: 320px) {

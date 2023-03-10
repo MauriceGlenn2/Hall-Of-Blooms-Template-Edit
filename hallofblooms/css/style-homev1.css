@@ -138,7 +138,7 @@ ul.breadcrumb li a:hover {
 
   .green__flower--img{
       height: auto;
-      width: 100px !important;
+      width: 250px !important;
       padding: 0px !important;
       margin: 0px auto;
   }
@@ -530,7 +530,7 @@ background-color: inherit !important;
 }
 
 .market__para{
-  font-size: 20px;
+  font-size: 32px;
   color: #a29184;
 }
 /* Scroll images */

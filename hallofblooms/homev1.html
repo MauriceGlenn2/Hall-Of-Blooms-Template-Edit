@@ -11,6 +11,8 @@
 <link rel="stylesheet" type="text/css" href="css/style-res-v1.css">
 <link rel="stylesheet" type="text/css" href="css/style-fix-nav.css">
 <link rel="stylesheet" type="text/css" href="css/style-form-search-mobile.css">
+<script src="scrolling/Scrollingimg.js"></script>
+<script src="scrolling/email.js"></script>
 <!-- scroll -->
 
 
@@ -19,6 +21,9 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 <!-- EB Garamond Font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,14 +33,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("cmoJvDUK808Fy3WFe");
+   })();
+</script>
 </head>
+
 <body>
 <header class="navbar-fixed-top pos-header" id="header-v1">
 <nav class="hidden-xs">
 	<div class="container">
 		<ul class="nav navbar-nav nav-help">
-			<li><span>P: n/a</span></li>
 			<li><span>E: hallofbloomssatx@gmail.com</span></li>
+			
 		</ul>
 		<ul class="nav navbar-nav navbar-right language">
 			<!-- <li class="dropdown eng-language"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eng</a><figure id="language-figure"></figure> -->
@@ -265,8 +279,8 @@
 </div>
 
 <div class="market__container">
- <h1 class="marketh1">A Market Stlye Experience</h1>
-      <p class="market__para">Hall of Blooms elevates your event by creating a unique <strong class="italicized">experience</strong> for your guests. Our mobile bouquet bar is <strong class="italicized">perfect</strong> for any intimate occasion. Let your guests build their own <strong class="italicized">personalized</strong> bouquets and bring home ,<strong class="italicized">beautiful</strong> fresh flowers.</p>
+ <h1 class="marketh1">A market style experience</h1>
+      <p class="market__para">Hall of Blooms elevates your event by creating a unique <strong class="italicized">experience</strong> for your <br> guests. Our mobile bouquet bar is <strong class="italicized">perfect</strong> for any intimate occasion. Let <br>your guests build their own <strong class="italicized">personalized</strong> bouquets and bring home, <strong class="italicized">beautiful</strong> fresh flowers.</p>
 
 </div>
 
@@ -392,30 +406,12 @@
 	<img class="yellowflower__style" src="./img/yellowflower.png" alt="">
 </div>
 
-<div class="container blog">
-<h1 class="perfect__for--para"><strong class="color__text"> EVENT FLORALS GALLERY</strong></h1>
- <a href="#foot"><p class="floral__inquiry--link"><a class="floral__inquiry--link" href="#foot">Floral Inquiry</a></p> 
-<div class="row">
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 product-blog">
-		<!-- <a href="https://www.instagram.com/p/CmFZHb-OAVz/" target="_blank" rel="noreferrer noopener"><img src="img/flowerbundle.png" class="img-responsive" title="img-blog" alt="img-holiwood"></a> -->
-		
-		<!-- <h2><a href="https://www.instagram.com/p/CmFZHb-OAVz/">Some text if needed</a></h2> -->
-		<!-- <p>Some text??</p> -->
-	</div>
-	 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 product-blog">
-		<a href="https://www.instagram.com/p/CmFZHb-OAVz/" target="_blank" rel="noreferrer noopener"><img src="img/flowerbundle.png" class="img-responsive" title="img-blog" alt="img-holiwood"></a>
-		
-		<!-- <h2><a href="https://www.instagram.com/p/CmFZHb-OAVz/" target="_blank" rel="noreferrer noopener">Some text if needed</a></h2> -->
-		<!-- <p>Some text??</p> -->
-
-	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 product-blog">
-		<!-- <a href="https://www.instagram.com/p/CmFZHb-OAVz/" target="_blank" rel="noreferrer noopener"><img src="img/7B7A78B6-2817-4C8F-B0D7-8BE916D320AD.jpeg" class="img-responsive" title="img-blog" alt="img-holiwood"></a> -->
-		
-		<!-- <h2><a href="#">Some text if needed</a></h2> -->
-		<!-- <p>Some text??</p> -->
-	</div> 
-</div>
+<div class="scroll__image--container">
+  <img class="scrolling__image" src="./img/greenflower.png" alt="Image">
+  <div class="navigation-arrows">
+    <button class="arrow arrow-left">&#8249;</button>
+    <button class="arrow arrow-right">&#8250;</button>
+  </div>
 </div>
 
 <div class="container collection" id="showcase-2">
@@ -465,31 +461,50 @@
 </div>
 </div>
 
+<div class="contact__container">
+	<div class="party__bloom--container"><img class="party__bloom" src="./img/THE DEETS-5.png"/></div>
+  <div class="form-container">
+    <div class="form-left">
+      <form onsubmit="contact(event)">
+      <input class="input__text" type="text" placeholder="Name" name="name" required>
+      
+      <input class="input__text" type="email" placeholder="Email" id="email" name="user_name" required>
+      
+      <input class="input__text" type="tel" placeholder="Phone" id="phone" name="phone" required>
+      
+      <input class="input__text" type="text" placeholder="Type Of Event"  id="subject" name="event" required>
+      
+	  <input class="input__text" type="tel" placeholder="Estimated Budget" id="amount" name="budget" required>
+    </div>
+    <div class="form-right">
+      <textarea class="input__text" placeholder="Message" id="message" name="message" required></textarea>
+    </div>
+  </div>
+  <div class="submit__button--container"><button class="form__button">Send</button></div>
+	</form>
+</div>
+<div class="faq__container">
+<h1 class="faq__h1">FAQ's</h1>
+<p class="faq__para">1. What's included in the rental?</p>
+<p class="faq__para">a. Hall of Blooms flower cart, fresh pre-cut florals, flower buckets, bouquet paper, twine or ribbon, scissors, custom chalkboard* </p>
+<p class="faq__para">2. Is there an attendant included in the rental?</p>
+<p class="faq__para">a. No. Set up and all materials are included in your rental for your guests to use. We have tutorials available ~here~ if you need any assistance. </p>
+<p class="faq__para">3. What is the rental time frame?</p>
+<p class="faq__para">a. Rentals start at a minimum of 4 hours. We arrive 30 minutes before & after for breakdown. </p>
+<p class="faq__para">4. Is there a delivery fee?</p>
+<p class="faq__para">a. Yes. Please email us for more information. </p>
+<p class="faq__para">5. I’m outside San Antonio, can I still rent?</p>
+<p class="faq__para">a. Please email us for more information. </p>
+</div>
+
 <div class="container blog">
 <h1 class="perfect__for--para"><strong class="color__text"> <a class="color__text" href="https://www.instagram.com/hallofblooms/">Bloom With Us On Instagram</a></strong></h1> 
 <div class="row">
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 product-blog">
-		<!-- <a href="https://www.instagram.com/p/CmFZHb-OAVz/" target="_blank" rel="noreferrer noopener"><img src="img/flowerbundle.png" class="img-responsive" title="img-blog" alt="img-holiwood"></a> -->
-		
-		<!-- <h2><a href="https://www.instagram.com/p/CmFZHb-OAVz/">Some text if needed</a></h2> -->
-		<!-- <p>Some text??</p> -->
-	</div>
-	 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 product-blog">
-		<a href="https://www.instagram.com/p/CmFZHb-OAVz/" target="_blank" rel="noreferrer noopener"><img src="img/flowerbundle.png" class="img-responsive" title="img-blog" alt="img-holiwood"></a>
-		
-		<!-- <h2><a href="https://www.instagram.com/p/CmFZHb-OAVz/" target="_blank" rel="noreferrer noopener">Some text if needed</a></h2> -->
-		<!-- <p>Some text??</p> -->
-
-	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 product-blog">
-		<!-- <a href="https://www.instagram.com/p/CmFZHb-OAVz/" target="_blank" rel="noreferrer noopener"><img src="img/7B7A78B6-2817-4C8F-B0D7-8BE916D320AD.jpeg" class="img-responsive" title="img-blog" alt="img-holiwood"></a> -->
-		
-		<!-- <h2><a href="#">Some text if needed</a></h2> -->
-		<!-- <p>Some text??</p> -->
-	</div> 
+	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 product-blog"></div>
+	 
+	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 product-blog"></div> 
 </div>
 </div>
-
 
 </main>
 <footer id="foot">

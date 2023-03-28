@@ -3,9 +3,9 @@ const image = document.querySelector(".scroll__image--container img");
 const leftArrow = document.querySelector(".arrow-left");
 const rightArrow = document.querySelector(".arrow-right");
 const images = [
-  "./img/2girlspic.jpg",
-  "./img/laughingimg.png",
-  "./img/grouppic.jpg",
+  "./img/ef2.jpg",
+  "./img/ef3.jpg",
+  "./img/ef4.jpg",
 ];
 let index = 0;
 

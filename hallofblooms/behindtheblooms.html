@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Hall of Blooms</title>
+<title>Behind The Blooms</title>
 <meta charset="utf-8">
 <!-- bootstrap vs fontawesome-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,10 @@
 <link rel="stylesheet" type="text/css" href="css/style-res-v1.css">
 <link rel="stylesheet" type="text/css" href="css/style-fix-nav.css">
 <link rel="stylesheet" type="text/css" href="css/style-form-search-mobile.css">
+<script src="https://kit.fontawesome.com/d291aecf1c.js" crossorigin="anonymous"></script>
 <script src="scrolling/Scrollingimg.js"></script>
+<script src="scrolling/email.js"></script>
+<script src="scrolling/bobar.js"></script>
 <!-- scroll -->
 
 
@@ -20,6 +23,9 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 <!-- EB Garamond Font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,24 +35,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("cmoJvDUK808Fy3WFe");
+   })();
+</script>
 </head>
-<header class="navbar-fixed-top pos-header" id="header-v1">
-<nav class="hidden-xs">
-	<div class="container">
-		<ul class="nav navbar-nav nav-help">
-			<li><span>P: n/a</span></li>
-			<li><span>E: hallofbloomssatx@gmail.com</span></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right language">
-			<!-- <li class="dropdown eng-language"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eng</a><figure id="language-figure"></figure> -->
-					<!-- <ul class="dropdown-menu"> -->
-						<!-- <li><a href="#">Eng</a></li>
-						<li><a href="#">France</a></li> -->
-					</ul>
-			</li>
-		</ul>
-	</div>
-</nav>
+<body>
+    <header class="navbar-fixed-top pos-header" id="header-v1">
 
 	<div class="container nav__bar--container">
 		<div class="row__navbar">
@@ -65,7 +64,7 @@
 	<ul class="nav navbar-nav menu-main">
 				<li><figure id="btn-close-menu" class="hidden-lg hidden-md"><i class="far fa-times-circle"></i></figure></li>
 				<li class="dropdown menu-home">
-					<li class="wedding-menu"><a href="#myCarousel">Home</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
+					<li class="wedding-menu"><a href="homev1.html#myCarousel">Home</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
 					<ul class="menu-home-lv2 dropdown-menu">
 						<!-- <li class="li-home"><i class="fas fa-long-arrow-alt-right hidden-md hidden-sm hidden-xs"></i><a href="homev1.html">Home 1</a></li> -->
 
@@ -118,8 +117,8 @@
 				</div>
 			</div>
 				</li>
-		<li class="wedding-menu"><a href="#showcase">Bouquet Bar</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
-	<li class="wedding-menu"><a href="#showcase-3">Event Florals</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
+		<li class="wedding-menu"><a href="homev1.html#showcase-3">Bouquet Bar</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
+	<li class="wedding-menu"><a href="eventflorals.html">Event Florals</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
 						<ul class="menu-home-lv2 dropdown-menu">
 							<li class="li-home"><i class="fas fa-long-arrow-alt-right hidden-sm hidden-md hidden-xs"></i><a href="blog.html">Blog right sidebar</a></li>
 							<li class="li-home"><i class="fas fa-long-arrow-alt-right hidden-sm hidden-md hidden-xs"></i><a href="blog-left-sidebar.html">Blog Left sidebar</a></li>
@@ -129,9 +128,9 @@
 							<li class="li-home"><i class="fas fa-long-arrow-alt-right hidden-sm hidden-md hidden-xs"></i><a href="singel-post-no-sidebar.html">Singel post no sidebar</a></li>
 						</ul>
 					</li>
-		<li class="wedding-menu"><a href="#foot">Behind the Blooms</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
-		<li class="wedding-menu"><a href="#foot">Contact Us</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
-		<li class="wedding-menu"><a href="#foot">FAQ</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
+		<li class="wedding-menu"><a href="behindtheblooms.html">Behind the Blooms</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
+		<li class="wedding-menu"><a href="contactus.html">Contact Us</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
+		<li class="wedding-menu"><a href="FAQs.html">FAQ</a><figure id="wedding-1" class="hidden-sm hidden-xs"></figure></li>
 		<!-- <li class="hidden-lg hidden-md"><a href="#"><i class="far fa-user"></i> </a></li>
 		<li class="hidden-lg hidden-md hidden-sm phone-mobile"><strong>P:</strong>n/a</li>
 		<li class="hidden-lg hidden-md hidden-sm phone-mobile"><strong>E:</strong>N/a</li> -->
@@ -186,8 +185,14 @@
 </div>
 </div>
 </header>
-<body>
-    <div class="row">
+
+<div class="container collection" id="showcase-2">
+<h1 class="perfect__for--para"> <strong class="color__text">Behind the Blooms</strong></h1>
+<p class="perfect__for--para">Hall of Blooms was formed in 2022 in San Antonio, Tx by two sisters who have a love for blooms <br> and a passion for creativity.</p>
+<div class="gallery clearfix">
+
+	<figure>
+<div class="row">
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 banner-collec">
 		<div class="behind__blooms--container">
 		<!-- <img class="blooms__pink--flower1-2 blooms__background" src="img/greenflower.png"> -->
@@ -223,5 +228,288 @@
 	</div>
 		<!-- <a href="#">Shop now</a> -->
 	</div>
+</div>
+</figure>
+</div>
+
+
+<footer id="foot">
+
+	</div>
+</div>
+<div class="footer-logo">
+	<div class="row footer-row footer-bottom">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<!-- Logo can be placed in a tag -->
+			<a href="#" class=""><img src="./img/logo2.png" class="logo2" alt=""></a>
+			<a href="https://www.pinterest.com/hallofblooms/" class="social-icon"><i class="fa-brands fa-pinterest"></i></a>
+			<a href="https://www.instagram.com/hallofblooms/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://www.tiktok.com/@hallofblooms" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cop">
+			<span>Copyright</span><i class="far fa-copyright"></i><span>2023 by Hall Of Blooms
+			</span>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<span id="gmail-footer"><a href="#">E: hallofbloomssatx@gmail.com</a></span>
+		</div>
+	</div>
+</div>
+<div class="hidden-lg hidden-md back-to-top fade"><i class="fas fa-caret-up"></i></div>
+<div class="BG-menu"></div>
+<!-- Modal quick view -->
+								<div id="myModal" class="modal fade" role="dialog">
+								  <div class="modal-dialog">
+								
+								    <!-- Modal content-->
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal">&times;</button>
+								        
+								      </div>
+								      <div class="modal-body">
+								       <div class="tab-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div id="img-pill-1" class="tab-pane fade in active">
+  						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 title-quick">
+							<figure class="fi-quick"><h1>QUICK VIEW</h1></figure>
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+							<img src="img/340x420.png" class="img-responsive" alt="holiwood">
+						</div>
+					</div>
+  						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 detail">
+  							<h1>Queen Rose - Pink</h1>
+							<p class="p1">It is a long established fact that a reader will be distracted  by the readable content of a page when looking at its layout.</p>
+							<div class="star">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								<span>10 Rating(s) | Add Your Rating</span>
+							</div>
+							<div class="prince"><span>$250.9</span><s class="strike">$300.02</s></div>
+							<figure class="fi-option"><p class="option">Option</p></figure>
+							<div class="size">
+								<span class="lb-size">Size <span class="sta-red">*</span></span><span class="lb-color">Color <span class="sta-red">*</span></span>
+							</div>
+							<div class="select-custom">
+								<select>
+									<option>S</option>
+									<option>M</option>
+									<option>L</option>
+									<option>XL</option>
+								</select>
+								<a href="#"><span class="color-1"></span></a> <a href="#"><span class="color-2"></span></a> <a href="#"><span class="color-3"></span></a> <a href="#"><span class="color-4"></span></a> 
+								<p class="require">Required Fields <span>*</span></p>
+								<div class="Quality">
+									
+									<div class="input-group input-number-group">
+										<span class="text-qua">Quanty:</span>
+										  <div class="input-group-button">
+										    <span class="input-number-decrement">-</span>
+										  </div>
+										  <input class="input-number" type="number" min="0" max="1000" value="01" >
+										  <div class="input-group-button">
+										    <span class="input-number-increment">+</span>
+										  </div>
+										  <span class="dola">$ </span><span class="total">250.9</span>
+									</div>
+									
+								</div>
+								<div class="add-cart">
+									<a href="#" class="btn-add-cart">Add to cart</a>
+									<a href="#" class="list-icon icon-1"><i class="far fa-eye"></i></a>
+									<a href="#" class="list-icon icon-2"><i class="far fa-heart"></i></a>
+								</div>
+							</div>
+  						</div>
+				</div>
+				<div id="img-pill-2" class="tab-pane fade">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 title-quick">
+							<figure class="fi-quick"><h1>QUICK VIEW</h1></figure>
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+							<img src="img/340x420.png" class="img-responsive" alt="holiwood">
+						</div>
+					</div>
+  					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 detail">
+  							<h1>Queen Rose</h1>
+							<p class="p1">It is a long established fact that a reader will be distracted  by the readable content of a page when looking at its layout.</p>
+							<div class="star">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								<span>10 Rating(s) | Add Your Rating</span>
+							</div>
+							<div class="prince"><span>$300.02</span><s class="strike">$250.9</s></div>
+							<figure class="fi-option"><p class="option">Option</p></figure>
+							<div class="size">
+								<span class="lb-size">Size <span class="sta-red">*</span></span><span class="lb-color">Color <span class="sta-red">*</span></span>
+							</div>
+							<div class="select-custom">
+								<select>
+									<option>S</option>
+									<option>M</option>
+									<option>L</option>
+									<option>XL</option>
+								</select>
+								<a href="#"><span class="color-1"></span></a> <a href="#"><span class="color-2"></span></a> <a href="#"><span class="color-3"></span></a> <a href="#"><span class="color-4"></span></a> 
+								<p class="require">Required Fields <span>*</span></p>
+								<div class="Quality">
+									
+									<div class="input-group input-number-group">
+										<span class="text-qua">Quanty:</span>
+										  <div class="input-group-button">
+										    <span class="input-number-decrement">-</span>
+										  </div>
+										  <input class="input-number" type="number" min="0" max="1000" value="01" >
+										  <div class="input-group-button">
+										    <span class="input-number-increment">+</span>
+										  </div>
+										  <span class="dola">$ </span><span class="total">250.9</span>
+									</div>
+									
+								</div>
+								<div class="add-cart">
+									<a href="#" class="btn-add-cart">Add to cart</a>
+									<a href="#" class="list-icon icon-1"><i class="far fa-eye"></i></a>
+									<a href="#" class="list-icon icon-2"><i class="far fa-heart"></i></a>
+								</div>
+							</div>
+  						</div>	
+				</div>
+				<div id="img-pill-3" class="tab-pane fade">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 title-quick">
+							<figure class="fi-quick"><h1>QUICK VIEW</h1></figure>
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+							<img src="img/340x420.png" class="img-responsive" alt="holiwood">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 detail">
+  							<h1>Lavender</h1>
+							<p class="p1">It is a long established fact that a reader will be distracted  by the readable content of a page when looking at its layout.</p>
+							<div class="star">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								<span>10 Rating(s) | Add Your Rating</span>
+							</div>
+							<div class="prince"><span>$300.02</span><s class="strike">$250.9</s></div>
+							<figure class="fi-option"><p class="option">Option</p></figure>
+							<div class="size">
+								<span class="lb-size">Size <span class="sta-red">*</span></span><span class="lb-color">Color <span class="sta-red">*</span></span>
+							</div>
+							<div class="select-custom">
+								<select>
+									<option>S</option>
+									<option>M</option>
+									<option>L</option>
+									<option>XL</option>
+								</select>
+								<a href="#"><span class="color-1"></span></a> <a href="#"><span class="color-2"></span></a> <a href="#"><span class="color-3"></span></a> <a href="#"><span class="color-4"></span></a> 
+								<p class="require">Required Fields <span>*</span></p>
+								<div class="Quality">
+									
+									<div class="input-group input-number-group">
+										<span class="text-qua">Quanty:</span>
+										  <div class="input-group-button">
+										    <span class="input-number-decrement">-</span>
+										  </div>
+										  <input class="input-number" type="number" min="0" max="1000" value="01" >
+										  <div class="input-group-button">
+										    <span class="input-number-increment">+</span>
+										  </div>
+										  <span class="dola">$ </span><span class="total">250.9</span>
+									</div>
+									
+								</div>
+								<div class="add-cart">
+									<a href="#" class="btn-add-cart">Add to cart</a>
+									<a href="#" class="list-icon icon-1"><i class="far fa-eye"></i></a>
+									<a href="#" class="list-icon icon-2"><i class="far fa-heart"></i></a>
+								</div>
+							</div>
+  						</div>
+ 						
+				</div>
+				<div id="img-pill-4" class="tab-pane fade">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 title-quick">
+							<figure class="fi-quick"><h1>QUICK VIEW</h1></figure>
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+							<img src="img/340x420.png" class="img-responsive" alt="holiwood">
+						</div>
+					</div>
+ 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 detail">
+  							<h1>Queen Rose - Yellow</h1>
+							<p class="p1">It is a long established fact that a reader will be distracted  by the readable content of a page when looking at its layout.</p>
+							<div class="star">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								<span>10 Rating(s) | Add Your Rating</span>
+							</div>
+							<div class="prince"><span>$300.02</span><s class="strike">$250.9</s></div>
+							<figure class="fi-option"><p class="option">Option</p></figure>
+							<div class="size">
+								<span class="lb-size">Size <span class="sta-red">*</span></span><span class="lb-color">Color <span class="sta-red">*</span></span>
+							</div>
+							<div class="select-custom">
+								<select>
+									<option>S</option>
+									<option>M</option>
+									<option>L</option>
+									<option>XL</option>
+								</select>
+								<a href="#"><span class="color-1"></span></a> <a href="#"><span class="color-2"></span></a> <a href="#"><span class="color-3"></span></a> <a href="#"><span class="color-4"></span></a> 
+								<p class="require">Required Fields <span>*</span></p>
+								<div class="Quality">
+									
+									<div class="input-group input-number-group">
+										<span class="text-qua">Quanty:</span>
+										  <div class="input-group-button">
+										    <span class="input-number-decrement">-</span>
+										  </div>
+										  <input class="input-number" type="number" min="0" max="1000" value="01" >
+										  <div class="input-group-button">
+										    <span class="input-number-increment">+</span>
+										  </div>
+										  <span class="dola">$ </span><span class="total">250.9</span>
+									</div>
+									
+								</div>
+								<div class="add-cart">
+									<a href="#" class="btn-add-cart">Add to cart</a>
+									<a href="#" class="list-icon icon-1"><i class="far fa-eye"></i></a>
+									<a href="#" class="list-icon icon-2"><i class="far fa-heart"></i></a>
+								</div>
+							</div>
+  						</div>	
+				</div>
+				</div>
+				<ul class="nav nav-pills col-lg-6 col-md-6 col-sm-6 col-xs-12 img-pill">
+				  <li class="active col-lg-4 col-md-4 col-sm-4 col-xs-12"><a data-toggle="pill" href="#img-pill-1"><img src="img/340x420.png" class="img-responsive" alt="holiwood"></a></li>
+				  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a data-toggle="pill" href="#img-pill-2"><img src="img/340x420.png" class="img-responsive" alt="holiwood"></a></li>
+				  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a data-toggle="pill" href="#img-pill-3"><img src="img/340x420.png" class="img-responsive" alt="holiwood"></a></li>
+				  <li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a data-toggle="pill" href="#img-pill-4"><img src="img/340x420.png" class="img-responsive" alt="holiwood"></a></li>
+				</ul>
+								      </div>
+								      
+								    </div>
+								
+								  </div>
+								</div>
+<!-- --------------------------- -->
+</footer>
+
+<!-- boostrap & jquery -->
+<script src="js/jquery.min_af.js"></script>
+<script src="js/bootstrap.min_0028.js"></script>
+<!-- js file -->
+<script src="js/function-homev1.js"></script>
+<script src="js/function-sidebar.js"></script>
+<script src="js/function-back-top.js"></script>
+<script src="js/function-select-custom.js"></script>
+<script src="js/function-search-v2.js"></script>
+<!-- scroll js -->
+<script type="text/javascript" src="scrolling/TweenMax.min.js"></script>
+<!-- <script src="scrolling/jquery.superscrollorama.js"></script> -->
+<script src="js/function-scroll.js"></script>
 </body>
 </html>

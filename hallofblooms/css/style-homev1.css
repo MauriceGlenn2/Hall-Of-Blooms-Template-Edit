@@ -303,7 +303,7 @@ background-color: inherit !important;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  width: 50px;
+  width: 30px;
   /* adjust the width to your liking */
 }
 
@@ -506,6 +506,12 @@ background-color: inherit !important;
   cursor: pointer;
   color: white;
 }
+.square__link2{
+  text-decoration: none !important;
+    cursor: not-allowed;
+    color: white;
+}
+
 .square__link:hover{
   color: white !important;
 }
@@ -591,6 +597,10 @@ background-color: inherit !important;
   text-align: center;
   margin: 0 auto;
   padding: 40px;
+}
+
+.market__img{
+  width: 50%;
 }
 
 .marketh1{

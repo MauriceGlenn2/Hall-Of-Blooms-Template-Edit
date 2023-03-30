@@ -288,13 +288,24 @@ background-color: inherit !important;
     
 }
 
-
-
 .pinkbackground{
   width: 80%;
   max-width: 100%;
 }
 
+.intimate {
+  display: inline-block;
+  position: relative;
+}
+
+.intimate img {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  /* adjust the width to your liking */
+}
 
 .perfect__img--container .laughingimg:first-child{
   z-index: 1;
@@ -315,6 +326,17 @@ background-color: inherit !important;
   margin-left: 0;
   text-align: center !important;
   width: 50%;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.intimate + .perfect__img--container .image-wrapper {
+  margin-top: 40px;
 }
 
 .works__text{
@@ -355,7 +377,8 @@ background-color: inherit !important;
 
 .behind__blooms--name{
   color: #5D5A56 !important;
-  font-family: garamond !important;
+  /* font-family: garamond !important; */
+  font-family: "eyesomescript" !important;
   font-size: 60px !important;
   margin: 0 auto !important;
 }
@@ -750,7 +773,18 @@ background-color: inherit !important;
   position: relative;
   z-index: 2;
 }
-
+/* Eyesome Script Font */
+@font-face {
+  font-family: 'EyesomeScript';
+  src: url('eyesome-script.eot');
+  src: url('eyesome-script.eot?#iefix') format('embedded-opentype'),
+    url('eyesome-script.woff2') format('woff2'),
+    url('eyesome-script.woff') format('woff'),
+    url('eyesome-script.ttf') format('truetype'),
+    url('eyesome-script.svg#youworkforthem') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* faq */
 .faq__container{
@@ -1631,9 +1665,10 @@ nav {
 
 .collection, .wedding, .holiday {
   padding-bottom: 60px; 
+  font-family: "eyesome";
 margin-top: 300px}
   .collection h1, .wedding h1, .holiday h1 {
-    font-family: Abril Fatface;
+    font-family: 'EyesomeScript', Helvetica, Arial, Sans-Serif;
     font-weight: 400;
     font-size: 50px;
     color: black;

@@ -140,6 +140,10 @@ ul.breadcrumb li a:hover {
       text-align: center;
   }
 
+  .wedding__section1{
+    background-color: #b16e4e;
+  }
+
   .header__flower--img{
     display: flex;
     align-items: center;
@@ -147,12 +151,14 @@ ul.breadcrumb li a:hover {
     margin-top: 40px;
     max-width: 1300px;
     margin: 20px auto;
+    position: relative;
+    top: -155px;
   }
 
   .green__flower--img{
       height: auto;
       width: 250px !important;
-      padding: 0px !important;
+      padding: 0px 20px !important;
       margin: 0px auto;
   }
 
@@ -174,7 +180,6 @@ width: 50%;
 
 .perfect__para{
     text-align: center;
-    margin-top: 10px;
     font-size: 28px;
     color: #5D5A56;
     font-family: garamond;
@@ -195,6 +200,8 @@ width: 50%;
   font-family: garamond;
   color: #5D5A56;
   font-weight: 400;
+  text-indent: 60px !important;
+  padding-bottom: 20px;
 }
 
 .faq__para--question{
@@ -250,8 +257,9 @@ background-color: inherit !important;
   color: #5D5A56 !important;
   text-align: center;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px !important;
   padding: 0 !important;
+  margin-top: 0px !important;
  
 }
 
@@ -522,6 +530,7 @@ background-color: inherit !important;
   width: 50%;
   justify-content: center !important;
   margin: 0 auto;
+  margin-bottom: 300px;
 }
 
 .square__pic--row{
@@ -672,6 +681,9 @@ background-color: inherit !important;
     }
 
     /* Form */
+
+
+
 .party__bloom--container{
   display: flex;
 }
@@ -683,7 +695,7 @@ background-color: inherit !important;
     margin: 0 auto;
     /* This centers the container horizontally */
     padding-bottom: 30px;
-    min-height: 100vh !important;
+    min-height: 100% !important;
     margin-top: 100px;
 
 }
@@ -796,13 +808,47 @@ background-color: inherit !important;
   font-style: normal;
 }
 
+/* Insta Section */
+
+.insta__container{
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1200px;
+  margin-bottom: 50px !important;
+}
+
+.insta__img--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.test__img--figure {
+  margin: 0;
+  padding: 10px;
+  width: 30%;
+}
+
+.test__img--figure img {
+  width: 100%;
+  height: auto;
+}
+
+.test__img--figure a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 /* faq */
 .faq__container{
   justify-content: center;
   width: 800px;
-  margin: 20px auto !important;
+  margin: 0px auto !important;
   align-items: center;
-  padding: 40px 0;
+  padding-top: 80px;
   min-height: 100vh;
   margin-top: 60px !important;
 }
@@ -1023,10 +1069,10 @@ figure.bg-input::after {
 }
 
 body {
-  /* background-image: url("img/BG-home1.jpg"); */
   background-position: -515px 0;
   height: auto;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+  }
 
 .carousel {
   padding-bottom: 30px; }
@@ -2229,9 +2275,21 @@ margin-top: 300px}
     padding-left: 25px; }
     .blog .product-blog .time-blog .time:last-child i {
       padding-right: 5px; }
-
+.foot__bottom--faq{
+  bottom: 0;
+    position: fixed;
+      bottom: 0;
+      width: 100%;
+      
+}      
+.foot__bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 footer {
- 
+ /* position: fixed; */
+ bottom: 0;
   
   height: auto;
   background-repeat: no-repeat; }

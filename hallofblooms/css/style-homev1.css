@@ -195,20 +195,32 @@ width: 50%;
   padding-bottom: 20px;
 }
 
-.faq__para{
+.faq__para {
   font-size: 20px !important;
   font-family: garamond;
   color: #5D5A56;
   font-weight: 400;
   text-indent: 60px !important;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
+
+.break__answer{
+    font-size: 20px !important;
+      font-family: garamond;
+      color: #5D5A56;
+      font-weight: 400;
+      text-indent: 60px !important;
+      /* padding-bottom: 20px !important; */
+      padding-top: 0 !important;
+}
+
 
 .faq__para--question{
   font-size: 20px !important;
   font-family: garamond;
   color: #5D5A56;
   font-weight: 600;
+  padding-top: 20px;
 }
 
 .img__question{

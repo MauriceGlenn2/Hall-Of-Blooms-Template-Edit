@@ -141,7 +141,7 @@ ul.breadcrumb li a:hover {
   }
 
   .wedding__section1{
-    background-color: #b16e4e;
+    background-color: #f2e3d8;
   }
 
   .header__flower--img{
@@ -233,8 +233,6 @@ width: 50%;
   width: 40% !important;
   max-width: 100% !important;
   object-fit: cover !important;
-  /* background-color: rgb(243, 186, 191, 0.10); */
-  /* border-radius: 50%; */
   padding: 0 0;
 }
 
@@ -251,16 +249,21 @@ text-decoration: none !important;
 background-color: inherit !important;
 }
 
+.horizontal-line {
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(162, 145, 132);
+  width: 100% !important;
+}
 
 .perfect__for--para{
   font-family: garamond !important;
   color: #5D5A56 !important;
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
   margin-bottom: 50px !important;
   padding: 0 !important;
   margin-top: 0px !important;
- 
+
 }
 
 #showcase-3{
@@ -489,17 +492,53 @@ background-color: inherit !important;
   margin: 0 !important;
 }
 
+
+
 .floral__inquiry--link{
   text-decoration: none !important;
   font-family: garamond !important;
   font-size: 26px !important;
   color: #a29184 !important;
   text-align: center;
+  display: inline-block !important;
+  padding-bottom: 0 !important;
+  font-weight: 500 !important;
+  margin: 0 auto;
+}
+
+.floral__inquiry--border{
+    padding: 0 6px;
+    display: inline-block !important;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3BABF;
+    border: 1px solid #a29184;
+    position: relative;
+    border-radius: 2px;
+}
+
+.floral__inquiry--border:hover{
+  background-color: #f2e3d8;
+}
+
+.inquiry__line {
+  border-left: 1px solid #a29184;
+  /* transform: translateX(-50%) !important; */
+  /* height: 100% !important; */
+  position: absolute;
+  top: 0 !important;
+  bottom: 0 !important;
+  padding: 0 10px;
+}
+
+.floral__inquiry--img{
+  width: 50px;
+  /* padding-left: 10px; */
+
 }
 
 .floral__inquiry--tag:hover{
   text-decoration: none !important;
-  
 }
 
 .ig__link--title{
@@ -627,6 +666,7 @@ background-color: inherit !important;
 .market__para{
   font-size: 32px;
   color: #a29184;
+  
 }
 /* Scroll images */
 
@@ -815,7 +855,7 @@ background-color: inherit !important;
   margin: 0 auto;
   justify-content: center;
   max-width: 1200px;
-  margin-bottom: 50px !important;
+  margin-bottom: 70px !important;
 }
 
 .insta__img--container {
@@ -823,6 +863,7 @@ background-color: inherit !important;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 
 .test__img--figure {

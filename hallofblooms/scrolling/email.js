@@ -36,7 +36,7 @@ const modalContainer = document.createElement("div");
 modalContainer.classList.add("modal-container");
 
 const img = document.createElement("img");
-img.src = "./img/thankyou.png";
+img.src = "./img/newthankyou2.png";
 img.classList.add("thankyou__img");
 
 modalContainer.appendChild(img);

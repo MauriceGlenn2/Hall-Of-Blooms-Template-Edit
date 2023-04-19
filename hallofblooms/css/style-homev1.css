@@ -209,7 +209,7 @@ width: 50%;
       font-family: garamond;
       color: #5D5A56;
       font-weight: 400;
-      text-indent: 60px !important;
+      text-indent: 70px !important;
       /* padding-bottom: 20px !important; */
       padding-top: 0 !important;
 }
@@ -275,7 +275,6 @@ background-color: inherit !important;
   margin-bottom: 50px !important;
   padding: 0 !important;
   margin-top: 0px !important;
-
 }
 
 #showcase-3{
@@ -384,6 +383,25 @@ background-color: inherit !important;
 .behind__blooms--container{
   position: relative;
   display: inline-block;
+}
+
+.behind__title{
+    font-family: garamond !important;
+      color: #5D5A56 !important;
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 10px !important;
+      padding: 0 !important;
+      margin-top: 0px !important;
+}
+
+.behind__intro{
+  font-family: garamond !important;
+  color: #5D5A56 !important;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px !important;
+  padding-top: 50px !important;
 }
 
 .behind__blooms--para {
@@ -545,8 +563,7 @@ background-color: inherit !important;
 
 .floral__inquiry--img{
   width: 50px;
-  /* padding-left: 10px; */
-
+  padding-left: 10px;
 }
 
 .floral__inquiry--tag:hover{
@@ -901,9 +918,13 @@ background-color: inherit !important;
   width: 800px;
   margin: 0px auto !important;
   align-items: center;
-  padding-top: 80px;
-  min-height: 100vh;
-  margin-top: 60px !important;
+  padding-top: 40px;
+    margin-top: 60px !important;
+  padding-bottom: 20px !important;
+}
+
+.last__faq--answer{
+  padding-bottom: 20px !important;
 }
 
 .social-icon{
@@ -1772,9 +1793,14 @@ nav {
       padding-left: 20px;
       color: lightgrey; }
 
+      .collection1{
+        padding-top: 60px;
+      }
+
 .collection, .wedding, .holiday {
   padding-bottom: 60px; 
   font-family: "eyesome";
+  
 margin-top: 300px}
   .collection h1, .wedding h1, .holiday h1 {
     font-family: 'EyesomeScript', Helvetica, Arial, Sans-Serif;

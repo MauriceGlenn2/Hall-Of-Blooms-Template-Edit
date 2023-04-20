@@ -1,0 +1,27 @@
+/*
+Font: 		Eyesome
+Style: 		Script
+URL: 		https://youworkforthem.com/font/T17398/eyesome
+Foundry: 	Vladimir Fedotov
+Foundry: 	https://youworkforthem.com/designer/860/vladimir-fedotov
+Copyright:	
+Version: 	17
+Created:	October 13, 2022
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'EyesomeScript';
+	src: url('eyesome-script.eot');
+	src: url('eyesome-script.eot?#iefix') format('embedded-opentype'),
+             url('eyesome-script.woff2') format('woff2'),
+	     url('eyesome-script.woff') format('woff'),
+	     url('eyesome-script.ttf') format('truetype'),
+	     url('eyesome-script.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

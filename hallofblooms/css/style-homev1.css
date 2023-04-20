@@ -9,6 +9,7 @@
 	7. Footer / #footer
 	
 --------------------------------------*/
+
 .active-bg-menu {
   position: fixed;
   width: 100%;
@@ -362,9 +363,9 @@ background-color: inherit !important;
 }
 
 .works__text{
-  font-family: garamond;
+  font-family: 'EyesomeScript' !important;
   color: #F3BABF;
-  font-size: 30px;
+  font-size: 48px;
 }
 
 .works__para{
@@ -386,13 +387,13 @@ background-color: inherit !important;
 }
 
 .behind__title{
-    font-family: garamond !important;
+    font-family: 'EyesomeScript' !important;
       color: #5D5A56 !important;
       text-align: center;
       font-size: 40px;
       margin-bottom: 10px !important;
       padding: 0 !important;
-      margin-top: 0px !important;
+      margin-top: 0px !important;      
 }
 
 .behind__intro{
@@ -418,7 +419,6 @@ background-color: inherit !important;
 
 .behind__blooms--name{
   color: #5D5A56 !important;
-  /* font-family: garamond !important; */
   font-family: "eyesomescript" !important;
   font-size: 60px !important;
   margin: 0 auto !important;
@@ -434,6 +434,9 @@ background-color: inherit !important;
   font-weight: normal !important;
   font-weight: 600 !important;
   line-height: 1.5 !important;
+}
+.favorite__bloom--text{
+  font-family: "eyesomescript" !important;
 }
 
 .favorite__bloom--para{
@@ -566,8 +569,19 @@ background-color: inherit !important;
   padding-left: 10px;
 }
 
+.floral__inquiry--tag{
+    text-align: center !important;
+    text-decoration: none !important;
+    font-family: garamond !important;
+    font-size: 26px !important;
+    color: #a29184 !important;
+    text-align: center;
+    font-weight: 500 !important;
+}
+
 .floral__inquiry--tag:hover{
   text-decoration: none !important;
+  color: #5D5A56 !important;
 }
 
 .ig__link--title{
@@ -1794,7 +1808,7 @@ nav {
       color: lightgrey; }
 
       .collection1{
-        padding-top: 60px;
+        padding-top: 90px;
       }
 
 .collection, .wedding, .holiday {

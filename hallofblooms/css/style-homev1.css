@@ -368,6 +368,16 @@ background-color: inherit !important;
   font-size: 48px;
 }
 
+.how__it--works{
+  
+    
+    text-align: center;
+    font-size: 40px;
+   
+    padding: 0 !important;
+    margin-top: 0px !important;
+}
+
 .works__para{
   color: #A29184;
   font-family: garamond;
@@ -392,7 +402,7 @@ background-color: inherit !important;
       text-align: center;
       font-size: 40px;
       margin-bottom: 10px !important;
-      padding: 0 !important;
+      padding-top: 20px !important;
       margin-top: 0px !important;      
 }
 
@@ -422,6 +432,7 @@ background-color: inherit !important;
   font-family: "eyesomescript" !important;
   font-size: 60px !important;
   margin: 0 auto !important;
+  padding-top: 20px !important;
 }
 
 .behind__blooms--para2{
@@ -435,6 +446,7 @@ background-color: inherit !important;
   font-weight: 600 !important;
   line-height: 1.5 !important;
 }
+
 .favorite__bloom--text{
   font-family: "eyesomescript" !important;
 }
@@ -690,8 +702,16 @@ background-color: inherit !important;
   padding: 40px;
 }
 
+.market__style{
+  font-family: "eyesomescript";
+  color: #a29184;
+  font-size: 80px !important;
+  padding-top: 20px;
+}
+
 .market__img{
-  width: 50%;
+  width: 20%;
+  padding-bottom: 20px;
 }
 
 .marketh1{
@@ -952,6 +972,13 @@ background-color: inherit !important;
   transform: scale(1.2) !important;
   /* Increase the size of the icon on hover */
   color: #5D5A56;
+}
+
+/* Sizing for screens temp edit*/
+@media only screen and (max-width: 425px) {
+  .perfect__for--container{
+    flex-wrap: wrap !important;
+  }
 }
 
 /* Sizing for screens */
